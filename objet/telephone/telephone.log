@@ -1,0 +1,93 @@
+Exporter version: 2.93.5, Blender version: 3.0.1
+========= Conversion from Blender to Babylon.js =========
+	Scene settings used :
+		Inline textures     :  false
+		Material Type       :  PBR
+		Positions Precision :  4
+		Normals Precision   :  3
+		UVs Precision       :  3
+		Vert Color Precision:  3
+		Mat Weight Precision:  2
+		Keep Z-up r-handed  :  no
+		Texture directory   :  D:\Bureau\escapegame\export\
+			WARNING: unsupported node type(ShaderNodeGamma) will trigger baking
+			WARNING: unsupported node type(ShaderNodeHueSaturation) will trigger baking
+			WARNING: unsupported node type(ShaderNodeMixRGB) will trigger baking
+			WARNING: unsupported node type(ShaderNodeMath) will trigger baking
+			WARNING: unsupported node type(ShaderNodeMath) will trigger baking
+			WARNING: unsupported node type(ShaderNodeMath) will trigger baking
+			processing texture je_gray_02_4k
+	Python World class constructor completed
+	processing begun of mesh:  burreau
+		processing begun of material:  mur.001
+			processing texture TexturesCom_Paint_Rough_512_normal
+				texture type:  bumpTexture, mapped using: "UVMap"
+			processing texture TexturesCom_Paint_Rough_Beige_512_albedo
+				texture type:  diffuseTexture, mapped using: "UVMap"
+			processing texture TexturesCom_Paint_Rough_512_height
+				texture type:  specularTexture, mapped using: "UVMap"
+		num positions      :  343
+		num normals        :  343
+		num tangents       :  0
+		num uvs            :  686
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  290
+	processing begun of mesh:  cadran
+		processing begun of material:  transparent
+		num positions      :  3910
+		num normals        :  3910
+		num tangents       :  0
+		num uvs            :  7820
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  1510
+	processing begun of mesh:  telephone
+		processing begun of material:  metal
+		num positions      :  967
+		num normals        :  967
+		num tangents       :  0
+		num uvs            :  1934
+		num uvs2           :  1934
+		num colors         :  0
+		num triangles      :  1532
+	processing begun of camera (UniversalCamera):  Camera
+	processing begun of mesh:  telephone.001
+		processing begun of material:  cadran
+		num positions      :  330
+		num normals        :  330
+		num tangents       :  0
+		num uvs            :  660
+		num uvs2           :  660
+		num colors         :  0
+		num triangles      :  124
+	processing begun of mesh:  telephone.002
+		processing begun of material:  plastique noir
+		num positions      :  84968
+		num normals        :  84968
+		num tangents       :  0
+		num uvs            :  169936
+		num uvs2           :  169936
+		num colors         :  0
+		num triangles      :  147900
+	processing begun of mesh:  burreau.001
+		processing begun of material:  bureau
+			processing texture TexturesCom_Wood_Worn2_512_albedo
+				texture type:  diffuseTexture, mapped using: "UVMap"
+		num positions      :  4
+		num normals        :  4
+		num tangents       :  0
+		num uvs            :  8
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  2
+========= Writing of JSON file started =========
+	writing mesh:  burreau
+	writing mesh:  cadran
+	writing mesh:  telephone
+	writing mesh:  telephone.001
+	writing mesh:  telephone.002
+	writing mesh:  burreau.001
+========= Writing of JSON file completed =========
+========= end of processing =========
+elapsed time:  0 min, 15.0155 secs
