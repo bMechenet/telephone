@@ -14,6 +14,9 @@ $(".cadran-input").click(function(){
         if( $(this).attr("val") == reponse[arrayReponse.length]){
             arrayReponse.push($(this).attr("val"));
             console.log(arrayReponse);
+            if(arrayReponse.length == reponse.length){
+                window.alert("c'est bon !")
+            }
         }else{
             arrayReponse = [];
         }
