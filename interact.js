@@ -8,14 +8,23 @@ var moveFwd = false;
 var canInput = true;
 
 
+$("#holder-image").width($("#canvas").width());
+$("#holder-image").height($("#canvas").height());
+
+$("#holder-image i").click(function(){
+    $("#holder-image").fadeOut();
+})
+
 $(".cadran-input").click(function(){
     if(canInput == true){
 
         if( $(this).attr("val") == reponse[arrayReponse.length]){
             arrayReponse.push($(this).attr("val"));
-            console.log(arrayReponse);
             if(arrayReponse.length == reponse.length){
-                window.alert("c'est bon !")
+                $("#holder-image").css("background-image", "url('objet/fin.png')");
+                $("#holder-image").css("background-color", "rgba(0,0,0,0.5)");
+                $("#holder-image i").remove();
+                $("#holder-image").fadeIn();
             }
         }else{
             arrayReponse = [];
