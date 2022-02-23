@@ -22,7 +22,7 @@ $(".cadran-input").click(function(){
             arrayReponse.push($(this).attr("val"));
             if(arrayReponse.length == reponse.length){
                 $("#holder-image").css("background-image", "url('objet/fin.png')");
-                $("#holder-image").css("background-color", "rgba(0,0,0,0.5)");
+                $("#holder-image").css("background-color", "rgb(255,255,255)");
                 $("#holder-image i").remove();
                 $("#holder-image").fadeIn();
             }
